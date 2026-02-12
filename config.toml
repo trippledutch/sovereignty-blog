@@ -1,0 +1,28 @@
+baseURL = 'https://trustnodes.nl/sovereignty/'
+languageCode = 'en-us'
+title = 'European Sovereignty: Digital Defense Economic'
+theme = 'PaperMod'
+
+[params]
+description = 'Why Europe must achieve technological and defense independence'
+author = 'Trust Nodes'
+
+[params.homeInfoParams]
+Title = "European Sovereignty"
+Content = """
+Two pillars for European independence:
+- Digital Infrastructure Sovereignty
+- Defense & Security Sovereignty
+
+Plus the economic transformation both require.
+"""
+
+[[menu.main]]
+name = "Posts"
+url = "/sovereignty/posts/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/sovereignty/about/"
+weight = 2
